@@ -16,7 +16,7 @@ function addTask() {
   const taskItem = document.createElement('li');
   taskItem.textContent = textoTarea;
 
-  // Botón de eliminar con un icono de Bootstrap
+  // Botón de eliminar
 const deleteBtn = document.createElement('button');
 deleteBtn.classList.add('delete-btn'); // Clase para los estilos del botón
 
